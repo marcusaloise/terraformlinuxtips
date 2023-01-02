@@ -1,9 +1,9 @@
 module "servers" {
     source = "./servers"
-    servers = 2
+    servers = 1
 }
 
-output "ip_instacia" {
-   value = module.servers.ip_instacia
+# output "ip_address" {
+#    value = module.servers.ip_address
 
-}
+# }
